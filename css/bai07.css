@@ -3,19 +3,15 @@ img {
     height: 50px;
 }
 
+p{
+    display: inline;
+}
+
 .paras {
     position: relative;
+    top: 100px;
+    width: 80%;
     margin: auto;
+    box-shadow: 5px 5px 10px #ccc;
 }
 
-.p1_img {
-    position: relative;
-}
-
-.p1_img img {
-    margin-bottom: 20px;
-}
-
-.p1 p {
-    margin-left: 10px;
-}
