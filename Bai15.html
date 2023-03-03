@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Contact Us</h1>
+        <fieldset>
+            <legend>Your message</legend>
+        <table>
+            <tr>
+                <td><label for="emailTo">To</label></td>
+                <td><input type="text" name="txtTo" readonly="readonly" id="emailTo" size="20" value="Example Cafe"></td>
+            </tr>
+
+            <tr>
+                <td><label for="emailFrom">Your email</label></td>
+                <td><input type="text" name="txtForm" id="emailForm" size="20" tabindex="1" maxlength="250"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="emailBody">Message</label></td>
+                <td><textarea name="txtBody"  id="emailBody" cols="50" rows="10" tabindex="2"></textarea></td>
+            </tr>
+        </table>
+        </fieldset>
+        <fieldset>
+            <legend>How you found us:</legend>
+            <table>
+                <tr>
+                    <td><label for="">How did you hear of us</label></td>
+                    <td><select name="" id=""><option value="">Google</option></select></td>
+                </tr>
+                <tr>
+                    <td><label for="">Newsletter</label></td>
+                    <td><input type="checkbox"><label for="">Ensure this box is checked if you would like to recive email updates</label></td>
+                </tr>
+            </table>
+        </fieldset>
+        <button>Send message</button>
+    </div>
+</body>
+<style>
+    div{
+        width: 50%;
+        position: relative;
+        top: 100px;
+        margin: auto;
+        box-shadow: 5px 5px 10px #ccc;
+        padding: 8px;
+    }
+
+    button{
+        margin: 20px;
+    }
+</style>
+</html>
