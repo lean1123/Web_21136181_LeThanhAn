@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.white-color{
+    color: white !important;
+}
+
+
+#header{
+    height: 74px;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-weight: 500;
+    position: relative;
+}
+
+.w3c-logo{
+    padding: 16px;
+    position: relative;
+    margin: auto;
+}
+
+.w3c-logo:hover{
+    opacity: 0.8;
+}
+
+.header-left{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    align-items: center;
+}
+
+.left-item{
+    padding: 28px 16px;
+    text-align: center;
+}
+
+.left-item:hover{
+    background-color: #04aa6d;
+    cursor: pointer;
+}
+
+.header-right{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.right-item{
+    padding: 12px 16px;
+    margin-right: 15px;
+    border-radius: 24px;
+}
+
+.right-item:hover{
+    opacity: 0.8;
+    color: black!important;
+}
+
+.right-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.header-icon{
+    position: relative;
+    top: -4px;
+}
+
+/* Body */
+
+
+#body{
+    height: 800px;
+    background-color: #aaa;
+}
