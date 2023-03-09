@@ -80,5 +80,46 @@
 
 #body{
     height: 800px;
-    background-color: #aaa;
+    background-color: #282a35;
+}
+
+.modes{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dark-mode{
+    position: relative;
+}
+
+.mode-box{
+    position: absolute;
+    width: 100px;
+    background-color: rgb(21,32,43);
+    color: #fff;
+    right: -34px;
+}
+
+.mode-box span{
+    margin: auto auto;
+}
+
+.trans-mode:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.search-mode:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.body-icon{
+    font-size: 20px;
+    padding: 16px;
+    color: #fff;
+}
+
+.body-icon:hover{
+    background-color: black;
 }
